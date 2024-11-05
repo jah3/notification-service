@@ -11,3 +11,20 @@ X
 (integration-notification-service/pom.xml,0\3\03bd9fa50b1e4d878b70aa7fd51855103c8aaf8f
 Q
 !mail-notification-service/pom.xml,e\0\e0c60c3ed1cf275fdbf35b77a77792b0c4d8b6ce
+µ
+„integration-notification-service/src/main/java/md/maib/integrationnotificationservice/IntegrationNotificationServiceApplication.java,8\d\8da7794a230e5878daf32d3bbd5b7bb79d68ea84
+T
+$mail-notification-service/.gitignore,0\2\021dac5b26c1fc4a5f07d841453197ed8ea96433
+[
++integration-notification-service/.gitignore,9\f\9f02536be5b91c7aab0e14f9024844e667db0393
+Ÿ
+omail-notification-service/src/main/java/md/maib/mailnotificationservice/MailNotificationServiceApplication.java,2\f\2f6cef281d0b0755b2dba3f8ee3b7af36bd70915
+P
+ resources/application.properties,c\a\ca143b126d8a08da5fc41aeb8537c52baff8c8e7
+:
+
+dockerfile,5\5\558c49b604560afd1841f2a7b49e2f60bd1f99b3
+\
+,integration-notification-service/dockerfile4,f\2\f2decfe559dffe93e2f758ccb32fba45a0f19618
+T
+$mail-notification-service/dockerfile,6\d\6de251039509c09e9bc25e7a85148ec5c04be318
