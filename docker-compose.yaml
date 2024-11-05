@@ -27,4 +27,4 @@ services:
       - rabbitmq
       - database
 
-#Dbase and rabbit
+#database and rabbit
