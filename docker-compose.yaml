@@ -1,5 +1,8 @@
 version: '3.8'
 
+networks:
+  notification-net:
+
 services:
   rabbitmq:
     image: rabbitmq:3-management
@@ -11,6 +14,8 @@ services:
       - RABBITMQ_DEFAULT_PASS=guest
     volumes:
       - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - notification-net
 
   database:
     image: postgres:latest
@@ -22,6 +27,8 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    networks:
+      - notification-net
 
   email-service:
     build: ./mail-notification-service
@@ -35,6 +42,8 @@ services:
       - RABBITMQ_PORT=5672
       - RABBITMQ_USER=guest
       - RABBITMQ_PASS=guest
+    networks:
+      - notification-net
 
 volumes:
   rabbitmq_data:

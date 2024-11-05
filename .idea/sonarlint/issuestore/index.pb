@@ -28,3 +28,15 @@ dockerfile,5\5\558c49b604560afd1841f2a7b49e2f60bd1f99b3
 ,integration-notification-service/dockerfile4,f\2\f2decfe559dffe93e2f758ccb32fba45a0f19618
 T
 $mail-notification-service/dockerfile,6\d\6de251039509c09e9bc25e7a85148ec5c04be318
+›
+kintegration-notification-service/src/main/java/md/maib/integrationnotificationservice/model/EventModel.java,b\7\b7a383a1474d488e08a184e8fa22ce30aaacbc0e
+¹
+ˆintegration-notification-service/src/test/java/md/maib/integrationnotificationservice/IntegrationNotificationServiceApplicationTest.java,9\9\99395c519be4d1a9a1cb3833f5c8445955e71c53
+º
+‰integration-notification-service/src/test/java/md/maib/integrationnotificationservice/IntegrationNotificationServiceApplicationTests.java,f\2\f21ca14535bb31c9e15d84a6f8e1f780b82e94a8
+¬
+|integration-notification-service/src/main/java/md/maib/integrationnotificationservice/controller/NotificationController.java,a\4\a442b8a675ebb63d7accb8548fea69d195ea3282
+ 
+pintegration-notification-service/src/main/java/md/maib/integrationnotificationservice/config/RabbitMQConfig.java,4\f\4fb10b40835606089a45e600e3588d9e51f2a5aa
+[
++integration-notification-service/dockerfile,b\7\b770db191ae89d9ce0a9d54801c34f682aa13afa
