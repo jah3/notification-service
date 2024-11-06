@@ -11,5 +11,5 @@ public class EventModel implements Serializable{
     private String name;
     private String surname;
     private int age;
-    private String sex;
+    private String gender;
 }

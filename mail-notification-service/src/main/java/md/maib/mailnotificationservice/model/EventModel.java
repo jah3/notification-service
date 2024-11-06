@@ -13,7 +13,7 @@ public class EventModel implements Serializable {
     private String name;
     private String surname;
     private int age;
-    private String sex;
+    private String gender;
 
     @Override
     public String toString() {
@@ -21,7 +21,7 @@ public class EventModel implements Serializable {
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", age=" + age +
-                ", gender='" + sex + '\'' +
+                ", gender='" + gender + '\'' +
                 '}';
     }
 }
