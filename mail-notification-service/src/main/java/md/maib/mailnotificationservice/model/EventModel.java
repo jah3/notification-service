@@ -1,14 +1,11 @@
 package md.maib.mailnotificationservice.model;
 
-import lombok.*;
-
-import java.io.Serializable;
+import lombok.Getter;
+import lombok.Setter;
 
 @Getter
 @Setter
-@NoArgsConstructor
-@AllArgsConstructor
-public class EventModel implements Serializable {
+public class EventModel{
 
     private String name;
     private String surname;
