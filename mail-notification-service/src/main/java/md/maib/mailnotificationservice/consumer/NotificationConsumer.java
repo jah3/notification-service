@@ -6,11 +6,16 @@ import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
+import java.util.logging.Logger;
+
 @Component
 @Log4j2
 public class NotificationConsumer {
+
+    Logger logger = Logger.getLogger(NotificationConsumer.class.getName());
+
     @RabbitListener(queues = "notifications")
     public void receiveNotification(@Payload EventModel notification) {
-        log.info("Received notification: {}", notification.toString());
-    }
+    logger.info("Received notification: " + notification);  }
+
 }

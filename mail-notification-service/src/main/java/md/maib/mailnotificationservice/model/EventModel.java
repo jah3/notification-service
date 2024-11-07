@@ -6,9 +6,7 @@ import java.io.Serializable;
 
 @Getter
 @Setter
-@NoArgsConstructor
-@AllArgsConstructor
-public class EventModel implements Serializable {
+public class EventModel{
 
     private String name;
     private String surname;
